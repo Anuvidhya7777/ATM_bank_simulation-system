@@ -1,0 +1,50 @@
+{
+  "accounts": {
+    "1111222233334444": {
+      "name": "Anu",
+      "card": "1111222233334444",
+      "pin_hash": "$2b$12$EiE2c2hFs3mwFd7eyzZMf.hw3MrJ2tzZYsUSa1NIEL5CmqsWGVBhi",
+      "balance": 14400.0,
+      "transactions": [
+        {
+          "id": "1d2210f9-037c-4394-b868-17b6d6ec22cf",
+          "type": "DEPOSIT",
+          "amount": 1000.0,
+          "balance_after": 6000.0,
+          "details": "Self deposit",
+          "timestamp": "2025-12-05T07:33:15.646921Z"
+        },
+        {
+          "id": "d196b7b2-6bb8-4cef-9d8b-e41696991f32",
+          "type": "DEPOSIT",
+          "amount": 1200.0,
+          "balance_after": 7200.0,
+          "details": "Self deposit",
+          "timestamp": "2025-12-05T07:34:16.878326Z"
+        },
+        {
+          "id": "e76f1f0d-f131-4cef-9b89-3bc21dcb4b84",
+          "type": "DEPOSIT",
+          "amount": 7200.0,
+          "balance_after": 14400.0,
+          "details": "Self deposit",
+          "timestamp": "2025-12-05T07:36:07.839981Z"
+        }
+      ],
+      "wrong_attempts": 0,
+      "locked_until": null
+    },
+    "9999888877776666": {
+      "name": "Ravi",
+      "card": "9999888877776666",
+      "pin_hash": "$2b$12$yPFDBRB18qJzoyyQOvdKi.Evi.s9uHZBfl2rmsSlScMl0h3LVoD/i",
+      "balance": 2500.0,
+      "transactions": [],
+      "wrong_attempts": 0,
+      "locked_until": null
+    }
+  },
+  "admin": {
+    "password_hash": null
+  }
+}
